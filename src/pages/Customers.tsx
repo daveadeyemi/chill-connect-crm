@@ -10,33 +10,33 @@ const customers = [
     id: "CUST-001",
     name: "Fresh Market Downtown",
     email: "orders@freshmarket.com",
-    phone: "+1 (555) 123-4567",
-    address: "123 Main St, Downtown",
+    phone: "+234 (801) 123-4567",
+    address: "123 Victoria Island, Lagos",
     status: "active",
     totalOrders: 145,
-    totalSpent: "$125,430",
+    totalSpent: "₦125,430",
     lastOrder: "2024-01-15"
   },
   {
     id: "CUST-002", 
     name: "Quick Stop Grocery",
     email: "purchasing@quickstop.com",
-    phone: "+1 (555) 234-5678",
-    address: "456 Oak Ave, Midtown", 
+    phone: "+234 (802) 234-5678",
+    address: "456 Garki District, Abuja", 
     status: "active",
     totalOrders: 89,
-    totalSpent: "$78,920",
+    totalSpent: "₦78,920",
     lastOrder: "2024-01-14"
   },
   {
     id: "CUST-003",
     name: "Corner Store Plus",
     email: "manager@cornerstore.com", 
-    phone: "+1 (555) 345-6789",
-    address: "789 Pine St, Uptown",
+    phone: "+234 (803) 345-6789",
+    address: "789 Ring Road, Ibadan",
     status: "inactive",
     totalOrders: 23,
-    totalSpent: "$15,680",
+    totalSpent: "₦15,680",
     lastOrder: "2023-12-20"
   }
 ]
