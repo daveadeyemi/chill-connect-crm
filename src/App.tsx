@@ -8,6 +8,7 @@ import Dashboard from "./pages/Dashboard";
 import Customers from "./pages/Customers";
 import Products from "./pages/Products";
 import Orders from "./pages/Orders";
+import Invoices from "./pages/Invoices";
 import Suppliers from "./pages/Suppliers";
 import TemperatureAlerts from "./pages/TemperatureAlerts";
 import Analytics from "./pages/Analytics";
@@ -28,6 +29,7 @@ const App = () => (
             <Route path="/customers" element={<Customers />} />
             <Route path="/products" element={<Products />} />
             <Route path="/orders" element={<Orders />} />
+            <Route path="/invoices" element={<Invoices />} />
             <Route path="/suppliers" element={<Suppliers />} />
             <Route path="/temperature-alerts" element={<TemperatureAlerts />} />
             <Route path="/analytics" element={<Analytics />} />
