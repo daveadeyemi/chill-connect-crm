@@ -8,9 +8,11 @@ import Dashboard from "./pages/Dashboard";
 import Customers from "./pages/Customers";
 import Products from "./pages/Products";
 import Orders from "./pages/Orders";
+import OrdersManager from "./pages/OrdersManager";
 import Invoices from "./pages/Invoices";
 import Suppliers from "./pages/Suppliers";
 import TemperatureAlerts from "./pages/TemperatureAlerts";
+import WhatsAppReceipts from "./pages/WhatsAppReceipts";
 import Analytics from "./pages/Analytics";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
@@ -29,6 +31,8 @@ const App = () => (
             <Route path="/customers" element={<Customers />} />
             <Route path="/products" element={<Products />} />
             <Route path="/orders" element={<Orders />} />
+            <Route path="/orders-manager" element={<OrdersManager />} />
+            <Route path="/whatsapp-receipts" element={<WhatsAppReceipts />} />
             <Route path="/invoices" element={<Invoices />} />
             <Route path="/suppliers" element={<Suppliers />} />
             <Route path="/temperature-alerts" element={<TemperatureAlerts />} />

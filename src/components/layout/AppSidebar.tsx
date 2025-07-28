@@ -7,7 +7,9 @@ import {
   Truck, 
   BarChart3, 
   Settings,
-  Thermometer
+  Thermometer,
+  MessageSquare,
+  Gift
 } from "lucide-react"
 import { NavLink, useLocation } from "react-router-dom"
 
@@ -29,9 +31,11 @@ const navigation = [
   { title: "Customers", url: "/customers", icon: Users },
   { title: "Products", url: "/products", icon: Package },
   { title: "Orders", url: "/orders", icon: ShoppingCart },
+  { title: "Order Manager", url: "/orders-manager", icon: Package },
+  { title: "WhatsApp Receipts", url: "/whatsapp-receipts", icon: MessageSquare },
   { title: "Invoices", url: "/invoices", icon: FileText },
   { title: "Suppliers", url: "/suppliers", icon: Truck },
-  { title: "Temperature Alerts", url: "/temperature", icon: Thermometer },
+  { title: "Temperature Alerts", url: "/temperature-alerts", icon: Thermometer },
   { title: "Analytics", url: "/analytics", icon: BarChart3 },
   { title: "Settings", url: "/settings", icon: Settings },
 ]
